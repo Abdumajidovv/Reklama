@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ota-card {
+    /* width: 22%; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+
+.card {
+    text-align: center;
+    
+}
+
+.ota-card  button {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(43, 45, 45);
+    color: #fff;
+    margin: 10px;
+
+    
+}
+
+
+.ota-tugadi {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    background-color:  rgb(43, 45, 45);
+    
+}
